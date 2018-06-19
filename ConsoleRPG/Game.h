@@ -1,10 +1,12 @@
 #pragma once
 
+
+#include"Functions.h"
 #include<iostream>
 #include<string>
 #include<iomanip>
 #include<ctime>
-#include"Functions.h"
+#include"stdafx.h"
 
 using namespace std;
 
@@ -20,7 +22,7 @@ public:
 	void mainMenu();
 
 	//Accessors
-	bool getPlaying() const { return this->playing; }
+	inline bool getPlaying() const { return this->playing; }
 
 	//Modifiers
 
